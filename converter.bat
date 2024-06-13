@@ -1,39 +1,29 @@
-;@echo off
-
-
-;Title Converting batch scripts to file.exe with iexpress
-;Mode 110,20 & color 0A
-;Rem Original Script https://github.com/npocmaka/batch.scripts/edit/master/hybrids/iexpress/bat2exeIEXP.bat
-;echo(
-;if "%~1" equ "" (
-    ;echo Usage: Drag and Drop your batch file over this script: "%~nx0"
-    ;echo Usage: .\%~nx0 batFile.bat target.Exe
-    ;Timeout /T 5 /nobreak>nul & Exit
+ ;@echo off
+; rem https://github.com/npocmaka/batch.scripts/edit/master/hybrids/iexpress/bat2exeIEXP.bat
+;if "%~2" equ "" (
+; echo usage: %~nx0 batFile.bat target.Exe
 ;)
-;set "target.exe=%__cd__%%~n1.exe"
+;set "target.exe=%__cd__%%~2"
 ;set "batch_file=%~f1"
 ;set "bat_name=%~nx1"
 ;set "bat_dir=%~dp1"
-;Set "sed=%temp%\2exe.sed"
-;echo Please  wait a while ...  Creating "%~n1.exe" ...
-;Timeout /T 2 /nobreak>nul
-;echo Remmenber to change the 'original filename' from: WEXTRACT.EXE .MUI to another name ...
-;Timeout /T 2 /nobreak>nul
-;copy /y "%~f0" "%sed%" >nul
-;(
-    ;(echo()
-    ;(echo(AppLaunched=cmd /c "%bat_name%")
-    ;(echo(TargetName=%target.exe%)
-    ;(echo(FILE0="%bat_name%")
-    ;(echo([SourceFiles])
-    ;(echo(SourceFiles0=%bat_dir%)
-    ;(echo([SourceFiles0])
-    ;(echo(%%FILE0%%=)
-;)>>"%sed%"
 
-;iexpress /n /q /m %sed%
-;del /q /f "%sed%"
-;exit /b 0
+;copy /y "%~f0" "%temp%\2exe.sed" >nul
+
+;(echo()>>"%temp%\2exe.sed"
+;(echo(AppLaunched=cmd.exe /c "%bat_name%")>>"%temp%\2exe.sed"
+;(echo(TargetName=%target.exe%)>>"%temp%\2exe.sed"
+;(echo(FILE0="%bat_name%")>>"%temp%\2exe.sed"
+;(echo([SourceFiles])>>"%temp%\2exe.sed"
+;(echo(SourceFiles0=%bat_dir%)>>"%temp%\2exe.sed"
+;(echo([SourceFiles0])>>"%temp%\2exe.sed"
+;(echo(%%FILE0%%=)>>"%temp%\2exe.sed"
+
+
+;iexpress /n /q /m %temp%\2exe.sed
+
+;rem del /q /f "%temp%\2exe.sed"
+; exit /b 0
 
 [Version]
 Class=IEXPRESS
@@ -65,3 +55,5 @@ FinishMessage=
 FriendlyName=-
 PostInstallCmd=<None>
 AdminQuietInstCmd=
+UserQuietInstCmd=
+;
