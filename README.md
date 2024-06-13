@@ -1,13 +1,8 @@
-
-<details>
-<summary><strong>Stealer</strong></summary>
-<b>
-halo
-</b>
-</details>
-
 ## Features
 
+<details>
+<summary><strong>Features</strong></summary>
+<b>
     • GUI Builder.
     • Force UAC.
     • Protect cmd.
@@ -41,3 +36,7 @@ halo
     • Captures Webcam Image.
     • Sends All Data Through Discord Webhooks
     (...more)
+
+</b>
+</details>
+
