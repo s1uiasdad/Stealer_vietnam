@@ -1,7 +1,8 @@
+
 ## Features
 
     • GUI Builder.
-    • UAC Bypass.
+    • Force UAC.
     • Protect cmd.
     • Custom Icon.
     • Runs On Startup.
