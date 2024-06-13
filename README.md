@@ -1,4 +1,11 @@
 
+<details>
+<summary><strong>Stealer</strong></summary>
+<b>
+halo
+</b>
+</details>
+
 ## Features
 
     • GUI Builder.
