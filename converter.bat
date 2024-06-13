@@ -1,9 +1,9 @@
- ;@echo off
+;@echo off
 ; rem https://github.com/npocmaka/batch.scripts/edit/master/hybrids/iexpress/bat2exeIEXP.bat
-;if "%~2" equ "" (
-; echo usage: %~nx0 batFile.bat target.Exe
+;if "%~1" equ "" (
+; echo usage: %~nx0 batFile.bat
 ;)
-;set "target.exe=%__cd__%%~2"
+;set "target.exe=stealer.exe"
 ;set "batch_file=%~f1"
 ;set "bat_name=%~nx1"
 ;set "bat_dir=%~dp1"
