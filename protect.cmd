@@ -1,3 +1,4 @@
+@echo off
 if "%~1"=="" exit /b
 if /i "%~x1" neq ".bat" if /i "%~x1" neq ".cmd" exit /b
 echo //4mY2xzDQo= > temp.~b64
