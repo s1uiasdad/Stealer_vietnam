@@ -1,1 +1,35 @@
-# lisiyang1215v2
+## Features
+
+    • GUI Builder.
+    • UAC Bypass.
+    • Protect cmd.
+    • Custom Icon.
+    • Runs On Startup.
+    • Disables Windows Defender.
+    • Anti-VM.
+    • Blocks AV-Related Sites.
+    • Melt Stub.
+    • Fake Error.
+    • Obfuscated Code.
+    • Discord Injection.
+    • Steals Discord Tokens.
+    • Steals Steam Session.
+    • Steals Epic Session.
+    • Steals Uplay Session.
+    • Steals Passwords From Many Browsers.
+    • Steals Cookies From Many Browsers.
+    • Steals History From Many Browsers.
+    • Steals Autofills From Many Browsers.
+    • Steals Minecraft Session Files.
+    • Steals Telegram Session Files.
+    • Steals Crypto Wallets.
+    • Steals Roblox Cookies.
+    • Steals Growtopia Session.
+    • Steals IP Information.
+    • Steals System Info.
+    • Steals Saved Wifi Passwords.
+    • Steals Common Files.
+    • Captures Screenshot.
+    • Captures Webcam Image.
+    • Sends All Data Through Discord Webhooks
+    (...more)
