@@ -20,7 +20,7 @@ chỉ hack cho máy tính (windows 7 - 10)
     
     -  Force UAC.
     
-    -  Protect cmd.
+    -  Protect cmd (sài key mã hoá tệp tin).
     
     -  Custom Icon.
     
@@ -259,6 +259,4 @@ chỉ hack cho máy tính (windows 7 - 10)
 
 
 
-mã sản phẩm của tôi làm :)
-
-aHR0cHM
+Key mã hoá tệp tin:2QnQ8yQAl-A49eysEJ5zN2nWn4qXKXS8eUWVAKY6VMk
