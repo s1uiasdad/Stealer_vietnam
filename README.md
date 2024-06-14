@@ -1,6 +1,11 @@
 ## Tôi là người việt nam 🇻🇳
 nó có thể hack 1 người rất đơn giản
 
+**sao để xoá ?**
+```
+chạy builder.exe và nhấn builder remove xong chạy remove.exe là xong
+```
+
 <details>
 <summary><strong>Features</strong></summary>
 <b>
