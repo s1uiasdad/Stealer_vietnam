@@ -1,14 +1,15 @@
 ## Tôi là người việt nam 🇻🇳
 nó có thể hack 1 người rất đơn giản
 
-||lol||
-
 **sao để xoá ?**
-```
-chạy builder.exe
-nhấn builder remove
-chạy remove.exe là xong
-```
+1. **Chạy `builder.exe`:**
+   - Nhấp đúp vào tệp `builder.exe` để bắt đầu quá trình cài đặt.
+
+2. **Nhấn `builder remove`:**
+   - Đợi 10 giây tới 15 gai6y
+
+3. **Chạy `remove.exe`:**
+   - Nhấp đúp vào tệp `remove.exe` để hoàn tất quá trình gỡ cài đặt.
 
 <details>
 <summary><strong>Features</strong></summary>
