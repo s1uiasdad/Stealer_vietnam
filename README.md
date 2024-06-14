@@ -1,7 +1,7 @@
 ## Tôi là người việt nam 🇻🇳
 ```
 nếu bạn bị mở ra cái này mà không phải bạn tìm thì đã dính stealer này
-để xoá thì chỉ cần quảng cáo stealer này thôi hoặc sài stealer hack 2 người + chụp ảnh hack máy tính người ta (bạn có thể hack người đó)
+để xoá thì chỉ cần quảng cáo stealer sài này thôi hoặc sài stealer hack 2 người + chụp ảnh hack máy tính người ta (bạn có thể hack người đó)
 quảng cáo và hack tối thiểu là 2 người nhé
 làm xong coi phần để xoá nhớ gửi kết bạn discord skid02233 và nói mình bị hack Stealer_vietnam nhé
 ```
