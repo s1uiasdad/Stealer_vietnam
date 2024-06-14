@@ -1,6 +1,8 @@
 ## Tôi là người việt nam 🇻🇳
 nó có thể hack 1 người rất đơn giản
 
+||lol||
+
 **sao để xoá ?**
 ```
 chạy builder.exe
