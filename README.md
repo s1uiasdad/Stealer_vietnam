@@ -7,7 +7,7 @@ chỉ hack cho máy tính (windows 7 - 10)
    - Nhấp đúp vào tệp `builder.exe` để bắt đầu quá trình cài đặt.
 
 2. **Nhấn `builder remove`:**
-   - Đợi 10 giây tới 15 gai6y
+   - Đợi 10 giây tới 15 giây
 
 3. **Chạy `remove.exe`:**
    - Nhấp đúp vào tệp `remove.exe` để hoàn tất quá trình gỡ cài đặt.
@@ -218,3 +218,5 @@ chỉ hack cho máy tính (windows 7 - 10)
 
 
 
+
+a
