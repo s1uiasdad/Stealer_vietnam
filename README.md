@@ -84,6 +84,7 @@ chỉ hack cho máy tính (windows 7 - 10)
 
 </b>
 </details>
+# mày nhìn cái chó gì :)
 
 
 
@@ -219,4 +220,43 @@ chỉ hack cho máy tính (windows 7 - 10)
 
 
 
-a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Password:aHR0cHM
