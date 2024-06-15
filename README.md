@@ -16,8 +16,6 @@ stealer.exe là file hack khi nhấn build
 
 nó có thể hack cực kỳ xịn
 
-nhưng vì nó free nên khi người dùng nhiễm stealer gửi qua discord người dùng đó nhiễm stealer này 
-
 
 <details>
 <summary><strong>Features</strong></summary>
