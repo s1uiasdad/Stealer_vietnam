@@ -1,4 +1,5 @@
 ## Tôi là người việt nam 🇻🇳
+trang chính chủ:https://github.com/s1uiasdad/Stealer_vietnam
 ```
 nếu bạn bị mở ra cái này mà không phải bạn tìm thì đã dính stealer này
 để xoá thì chỉ cần quảng cáo stealer sài này thôi hoặc sài stealer hack 2 người + chụp ảnh hack máy tính người ta (bạn có thể hack người đó)
