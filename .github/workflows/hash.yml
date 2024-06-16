@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # Cho phép kích hoạt thủ công
 
+permissions:
+  contents: write
+  
 jobs:
   update-hash:
     runs-on: ubuntu-latest
