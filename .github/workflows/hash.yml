@@ -19,11 +19,7 @@ jobs:
 
       - name: Generate Random Hash
         id: generate-hash
-        run: echo "hash=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 100)" >> $GITHUB_ENV
-
-      - name: Write Hash to File
-        run: |
-          echo "$hash" > main/hash
+        run: echo "hash=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 100)" > hash
 
       - name: Commit and Push Changes
         run: |
