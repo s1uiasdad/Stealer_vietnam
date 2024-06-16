@@ -6,7 +6,7 @@ Tải ở https://github.com/s1uiasdad/Stealer_vietnam/archive/refs/heads/main.z
 dung lượng:
 ![dung](https://img.shields.io/github/repo-size/s1uiasdad/Stealer_vietnam?color=fa7202)
 
-![a](https://img.shields.io/github/downloads/s1uiasdad/Stealer_vietnam/total?color=fa7202)
+![a](https://img.shields.io/github/languages/top/s1uiasdad/Stealer_vietnam?color=fa7202)
 
 
 nó có thể hack 1 người rất đơn giản
