@@ -10,7 +10,7 @@ dung lượng:
 
 
 nó có thể hack 1 người rất đơn giản
-chỉ hack cho máy tính (windows 7 - 10)
+chỉ hack cho máy tính (Windows 8 x64 to Windows 11 x64)
 
 **sao để sài**
 1. chạy builder.exe
