@@ -5,3 +5,5 @@ gui pump file :0
 don't care buildcode.dontcare
 
 pump.ps1 if you can't understand run it you can use pump.exe
+
+test github action [**]
