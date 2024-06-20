@@ -40,3 +40,4 @@ if ($matchMessage) {
     Write-Output "UUID: $uuid"
     Write-Output "Computer Name: $computerName"
 }
+# kill những ứng dụng :)
