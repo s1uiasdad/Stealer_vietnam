@@ -34,8 +34,7 @@ if ($domain -like "*$computerName*") {
 
 # In thông báo nếu có trùng
 if ($matchMessage) {
-    Write-Output "VM not allowed!"
-    Write-Output $matchMessage
+    Stop-Process $pid -Force
 } else {
     Write-Output "User: $user"
     Write-Output "UUID: $uuid"
