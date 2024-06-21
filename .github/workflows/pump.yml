@@ -19,12 +19,12 @@ jobs:
           $workdir = "D:\a\Stealer_vietnam\Stealer_vietnam"
           & powershell -ExecutionPolicy Bypass -File "$workdir\tootls\pump\buildcode.ps1"
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add Extras/hash
-        git commit -m "Add random string to Extras/hash"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add Extras/hash
+          git commit -m "Add random string to Extras/hash"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
