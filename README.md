@@ -14,7 +14,7 @@ chỉ hack cho máy tính (Windows 8 x64 to Windows 11 x64)
 
 **sao để sài**
 
-[click vô đây để xem đầy đủ](https://github.com/s1uiasdad/Stealer_vietnam/wiki/Setup)
+[click vô đây để xem](https://github.com/s1uiasdad/Stealer_vietnam/wiki/Setup)
 
 stealer.exe là file hack khi nhấn build
 
