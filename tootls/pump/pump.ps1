@@ -2,7 +2,7 @@ Add-Type -AssemblyName System.Windows.Forms
 
 # Tạo Form chính
 $form = New-Object System.Windows.Forms.Form
-$form.Text = 'File Pumper | https://github.com/s1uiasdad/Stealer_vietnam'
+$form.Text = 'File Pumper'
 $form.Size = New-Object System.Drawing.Size(400, 250)
 $form.StartPosition = 'CenterScreen'
 
