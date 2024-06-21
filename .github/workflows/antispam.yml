@@ -1,0 +1,33 @@
+name: Update antispam.ps1
+
+on:
+  push:  # This triggers the workflow on any push event
+
+jobs:
+  update-antispam:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Fetch content from URL
+      run: curl -s https://rentry.co/bwbfr37y/raw -o rentry_content.txt
+
+    - name: Replace placeholder with random string
+      id: replace
+      run: |
+        RANDOM_STRING=$(tr -dc 'a-zA-Z0-9' < /dev/urandom | fold -w 10 | head -n 1)
+        sed -i "s/hashrandomhere/$RANDOM_STRING/g" rentry_content.txt
+
+    - name: Update antispam.ps1
+      run: |
+        mv rentry_content.txt file/antispam.ps1
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add file/antispam.ps1
+        git commit -m 'Update antispam.ps1 with new random string'
+        git push
