@@ -23,8 +23,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add Extras/hash
-          git commit -m "Add random string to Extras/hash"
+          git add tootls/pump.exe
+          git commit -m "Upload pump.exe file"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
