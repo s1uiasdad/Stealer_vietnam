@@ -28,7 +28,7 @@ jobs:
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add file/hash
-        git commit -m "Add random string to Extras/hash"
+        git commit -m "hash auto update"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
