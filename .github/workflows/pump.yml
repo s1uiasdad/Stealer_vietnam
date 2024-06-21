@@ -23,7 +23,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add tootls/pump.exe
+          git add .\tootls\pump\pump.exe
           git commit -m "Upload pump.exe file"
           git push
         env:
