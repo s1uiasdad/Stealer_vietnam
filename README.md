@@ -14,10 +14,7 @@ chỉ hack cho máy tính (Windows 8 x64 to Windows 11 x64)
 
 **sao để sài**
 
-[chạy builder.exe
-,nhập webhook discord
-,nhấn build và gửi cho nạn nhân may mắn
-,click vô đây để xem đầy đủ](https://github.com/s1uiasdad/Stealer_vietnam/wiki/Setup)
+[click vô đây để xem đầy đủ](https://github.com/s1uiasdad/Stealer_vietnam/wiki/Setup)
 
 stealer.exe là file hack khi nhấn build
 
