@@ -12,8 +12,7 @@ dung lượng:
 nó có thể hack 1 người rất đơn giản
 chỉ hack cho máy tính (Windows 8 x64 to Windows 11 x64)
 
-**sao để sài**
-
+**sao để sài** => 
 [click vô đây để xem](https://github.com/s1uiasdad/Stealer_vietnam/wiki/Setup)
 
 stealer.exe là file hack khi nhấn build
