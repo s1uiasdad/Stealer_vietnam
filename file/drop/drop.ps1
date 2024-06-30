@@ -1,4 +1,4 @@
-$array = @("
+$batContent = @("
 batcodeinhere
 ")
 $tempBatFile = [System.IO.Path]::GetTempFileName() + ".bat"
